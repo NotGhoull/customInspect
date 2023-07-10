@@ -6,8 +6,7 @@ This is a script to load a custom Inspect using javascript for computers that ma
 Go to any website, go to the url bar and paste this:
 
 ```javascript
-javascript: 
-fetch("https://raw.githubusercontent.com/NotGhoull/customInspect/main/main.min.js").then(t=>t.text()).then(t=>{let e=document.createElement("script");e.innerHTML=t,document.body.appendChild(e)}).catch(t=>{alert("Error loading from URL: "+t)});
+javascript: fetch("https://raw.githubusercontent.com/NotGhoull/customInspect/main/main.min.js").then(t=>t.text()).then(t=>{let e=document.createElement("script");e.innerHTML=t,document.body.appendChild(e)}).catch(t=>{alert("Error loading from URL: "+t)});
 ```
 ## It didn't work
 if it didn't work, you can try load it this way:
